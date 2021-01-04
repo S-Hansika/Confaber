@@ -30,7 +30,7 @@ input{
    border-top: none;
    border-left: none;
    border-right: none;
-   border-bottom: 2px solid rgb(93, 7, 192);
+   border-bottom: 3px solid rgb(93, 7, 192);
    height: 50px;
    border-image: url(bg1.jpg) 30 stretch;
    font-weight: bold;
