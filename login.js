@@ -36,12 +36,13 @@ function change(){
     if (background_img == "bg8.jpg"){
         document.getElementById("login").style.backgroundImage="url('bg8.jpg')";
         document.getElementById("user_name").style.borderImage="url('bg8.jpg') 30 stretch";
-    }   
+    }  
 }
 
 function add_user(){
     user_name= document.getElementById("user_name").value ;
     localStorage.setItem("User Name", user_name);
-
+    localStorage.setItem("background", background_img); 
+    
     window.location="room.html";
 }

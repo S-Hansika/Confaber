@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    display: flex;
+    background-image: url(bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo{
+    width: 60px;
+    height:60px;
+}
+#logout{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    float: right;
+}
+.container{
+    margin-top: 30px;
+}
+#logo_text{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Audiowide', cursive;
+}
+.btn1{
+    height: 50px;
+    width: 150px;
+    color: White;
+    background-image: url(bg1.jpg);
+    font-size: 20px;
+}
+#room_name{
+outline: none;
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom: 3px solid rgb(93, 7, 192);
+height: 50px;
+border-image: url(bg1.jpg) 30 stretch;
+font-weight: bold;
+background-color: rgba(253, 70, 125, 0.521);
+color: white;
+font-size: 20px;
+}
+.output{
+    background-color: rgba(253, 70, 125, 0.521);
+}

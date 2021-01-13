@@ -1,11 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Confaber</title>
+    <link rel="icon" href="demo_icon.gif" type="image/gif" sizes="16x16">
+
+    <link rel="stylesheet" href="room.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>
-    
+
+<body onload="change()">
+    <div class="container">
+        <button onclick="logout()" id="logout" class="glyphicon glyphicon-log-out btn1" >Logout</button>
+        <div id="btn"> </div>
+        <center>
+            <img src="logo.png" alt="" class="logo"> <span id="logo_text"> Confaber</span>
+            <h3 id="user_name"></h3>
+            <div class="form-group input_div_room_page">
+                <br><br>
+                <h4>#Add Room:</h4>
+                <input type="text" id="room_name" placeholder="Enter Room name" class="form-control">
+            </div>
+            <button onclick="add_room()" class="btn1" id="room">#Add Room</button>
+            <br><br><br><br>
+            <h3 class="color_white">#TRENDINGROOMS</h3>
+            <div id="output"></div>
+
+        </center>
+    </div>
+    <script src="room.js"></script>
 </body>
+
 </html>
