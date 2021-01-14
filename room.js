@@ -13,8 +13,9 @@ var firebaseConfig = {
 
 function change(){
     background_img=localStorage.getItem("background");
-    user_name= localStorage.getItem("User name");
+    user_name= localStorage.getItem("User Name");
     document.getElementById("user_name").innerHTML="Welcome "+user_name+" !";
+    
     if (background_img == "bg1.jpg"){
         document.getElementById("logout").style.backgroundImage="url('bg1.jpg')";
         document.getElementById("room_name").style.borderImage="url('bg1.jpg') 30 stretch";
