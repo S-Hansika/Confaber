@@ -1,48 +1,64 @@
-body{
+body {
     text-align: center;
     display: flex;
     background-image: url(bg.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
-.logo{
+
+.logo {
     width: 60px;
-    height:60px;
+    height: 60px;
 }
-#logout{
+
+#logout {
     height: 50px;
     width: 200px;
     font-size: 20px;
     float: right;
 }
-.container{
+
+.container {
     margin-top: 30px;
 }
-#logo_text{
+
+#logo_text {
     font-size: 30px;
     font-weight: bold;
     font-family: 'Audiowide', cursive;
 }
-.btn1{
+
+.btn1 {
     height: 50px;
     width: 150px;
     color: White;
     background-image: url(bg1.jpg);
     font-size: 20px;
 }
-#room_name{
-outline: none;
-border-top: none;
-border-left: none;
-border-right: none;
-border-bottom: 3px solid rgb(93, 7, 192);
-height: 50px;
-border-image: url(bg1.jpg) 30 stretch;
-font-weight: bold;
-background-color: rgba(253, 70, 125, 0.521);
-color: white;
-font-size: 20px;
+
+#room_name {
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid rgb(93, 7, 192);
+    height: 50px;
+    border-image: url(bg1.jpg) 30 stretch;
+    font-weight: bold;
+    background-color: rgba(255, 108, 137, 0.322);
+    color: black;
+    font-size: 20px;
 }
-.output{
-    background-color: rgba(253, 70, 125, 0.521);
+
+#output {
+    padding: 10px;
+    width: 80%;
+    background: rgba(255, 108, 137, 0.322);
+    border-radius: 15px;
+}
+.room_name{
+    font-size: 20px;
+}
+.room_name:hover{
+    cursor: pointer;
 }

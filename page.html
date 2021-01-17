@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Confaber</title>
+    <title>Document</title>
     <link rel="icon" href="logo.png" type="image" sizes="16x16">
 
-    <link rel="stylesheet" href="room.css">
+    <link rel="stylesheet" href="page.css">
 
     <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
@@ -28,23 +28,24 @@
 
 <body onload="change()">
     <div class="container">
-        <button onclick="logout()" id="logout" class="glyphicon glyphicon-log-out btn1" >Logout</button>
+        <button onclick="logout()" id="logout" class="glyphicon glyphicon-log-out btn1">Logout</button>
+        <br>
         <center>
             <img src="logo.png" alt="" class="logo"> <span id="logo_text"> Confaber</span>
-            <h3 id="user_name"></h3>
-            <div class="form-group input_div_room_page">
-                <br><br>
-                <h4>#Add Room:</h4>
-                <input type="text" id="room_name" placeholder="Enter Room name" class="form-control">
-            </div>
-            <button onclick="add_room()" class="btn1" id="room">#Add Room</button>
-            <br><br><br><br>
-            <h3 class="color_white">#TRENDINGROOMS</h3>
-            <div id="output"></div>
+            <br>
+            <br>
+            <div style="text-align: left;margin-bottom: 70px;" id="output"> </div>
 
-        </center>
-    </div>
-    <script src="room.js"></script>
+            <center>
+        <div class="input_div_message_page">
+            <label>Send:</label>
+            <input type="text" id="msg" placeholder="Your Message" class="form-control">
+            <button class="btn btn-success" onclick="send()" style="margin-bottom: 10px;" id="send">Send</button>
+        </div>
+    </center>
+</div>
+
+    <script src="page.js"></script>
 </body>
 
 </html>

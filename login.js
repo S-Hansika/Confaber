@@ -40,9 +40,9 @@ function change(){
 }
 
 function add_user(){
-    user_name= document.getElementById("user_name").value ;
-    localStorage.setItem("User Name", user_name);
-    localStorage.setItem("background", background_img); 
-    
+    user_name=document.getElementById("user_name").value ;
+
+    localStorage.setItem("User name", user_name);
+    localStorage.setItem("background", background_img);
     window.location="room.html";
 }

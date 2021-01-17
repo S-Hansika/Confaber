@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    display: flex;
+    background-image: url(bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn1 {
+    height: 50px;
+    width: 150px;
+    color: White;
+    background-image: url(bg1.jpg);
+    font-size: 20px;
+    float: right;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+#logo_text {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Audiowide', cursive;
+}
+
+#output{
+    padding: 10px;
+    width: 80%;
+    background-color: rgba(255, 108, 137, 0.322);
+    border-radius: 15px;
+}
+
+.input_div_message_page {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    margin-left: -215px;
+}
+
+.input_div_message_page label {
+    color: black;
+}
+
+.input_div_message_page #msg {
+    width: 80%;
+}
+
+.input_div_message_page button {
+    margin-top: 15px;
+    width: 50%;
+}
+#msg{
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid rgb(93, 7, 192);
+    height: 50px;
+    border-image: url(bg1.jpg) 30 stretch;
+    font-weight: bold;
+ }
+ .user_tick
+{
+	width:20px;
+}
+#send{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
