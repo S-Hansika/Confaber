@@ -113,7 +113,7 @@
         });
   }
   
-  function log_out() {
+  function logout() {
         localStorage.removeItem("User name");
         localStorage.removeItem("room name");
   
